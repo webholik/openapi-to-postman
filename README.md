@@ -6,6 +6,8 @@
 
 # OpenAPI 3.0 to Postman Collection v2.1.0 Converter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/postmanlabs/openapi-to-postmanv2.svg)](https://greenkeeper.io/)
+
 Using this converter one can effortlessly convert a given OPENAPI 3.0.0 specification to a POSTMAN collection v2.1.0
 
 
