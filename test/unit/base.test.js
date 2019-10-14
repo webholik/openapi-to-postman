@@ -110,6 +110,13 @@ describe('CONVERT FUNCTION TESTS ', function() {
           done();
         });
     });
+    it('Allow body options in request params' +
+      infoHavingDescriptionOnlySpec, function(done) {
+      Converter.convert({ type: 'file', data: infoHavingDescriptionOnlySpec },
+        { schemaFaker: true }, (err, conversionResult) => {
+          done();
+        });
+    });
   });
   describe('for invalid requestNameSource option', function() {
     var pathPrefix = VALID_OPENAPI_PATH + '/test1.json',

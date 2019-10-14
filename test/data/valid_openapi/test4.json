@@ -1,0 +1,38 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Types raml API",
+    "version": "undefined"
+  },
+  "servers": [],
+  "paths": {
+    "/organization": {
+      "post": {
+        "responses": {
+          "description": "This is a description"
+        },
+        "parameters": [
+          {
+            "name": "Header1",
+            "in": "header",
+            "schema": {
+              "$ref": "#/components/schemas/User"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "User": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
