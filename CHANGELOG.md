@@ -1,5 +1,11 @@
 # OpenAPI-Postman Changelog
 
+#### v1.0.0-beta.1 (Dec 20, 2019)
+* Adding a new SchemaPack API that exposes a validation function 
+* Invalid option values don't throw errors anymore
+* More detailed error messages for invalid input types
+* Invalid file paths return { result: false } and a reason (instead of an error)
+
 #### v0.2.0 (Nov 22, 2019)
 * Handled cases where the URL query has no description property
 * Fix for https://github.com/postmanlabs/openapi-to-postman/issues/117 - Maintaining descriptions for form-urlencoded body params
