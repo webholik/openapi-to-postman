@@ -1,5 +1,8 @@
 # OpenAPI-Postman Changelog
 
+#### v1.0.0-beta.2 (Dec 20, 2019)
+* Resolving schema refs while validation request bodies against the schema
+
 #### v1.0.0-beta.1 (Dec 20, 2019)
 * Adding a new SchemaPack API that exposes a validation function 
 * Invalid option values don't throw errors anymore
