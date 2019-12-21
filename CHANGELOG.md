@@ -1,10 +1,13 @@
 # OpenAPI-Postman Changelog
 
+#### v1.0.0-beta.3 (Dec 21, 2019)
+* Returning schema validation mismatches for query params too
+
 #### v1.0.0-beta.2 (Dec 20, 2019)
 * Resolving schema refs while validation request bodies against the schema
 
 #### v1.0.0-beta.1 (Dec 20, 2019)
-* Adding a new SchemaPack API that exposes a validation function 
+* Adding a new SchemaPack API that exposes a validation function
 * Invalid option values don't throw errors anymore
 * More detailed error messages for invalid input types
 * Invalid file paths return { result: false } and a reason (instead of an error)
