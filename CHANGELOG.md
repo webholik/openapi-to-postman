@@ -1,5 +1,14 @@
 # OpenAPI-Postman Changelog
 
+#### v1.0.0-beta.4 (Dec 30, 2019)
+* Ignoring empty query params
+* 'Matched' flag also takes response mismatches into account
+* Only best-matched endpoints are returned
+* Consistent response format whether or not mismatches are found
+* Accepting options to ignore specific properties, and to shorten error messages
+* Using setTimeout instead of process.nextTick for browser-friendliness
+* Accepting URLs as a collection object instead of a string
+
 #### v1.0.0-beta.3 (Dec 21, 2019)
 * Returning schema validation mismatches for query params too
 
