@@ -1,5 +1,8 @@
 # OpenAPI-Postman Changelog
 
+#### v1.0.0-beta.5 (Dec 31, 2019)
+* Using stringified URL for query params
+
 #### v1.0.0-beta.4 (Dec 30, 2019)
 * Ignoring empty query params
 * 'Matched' flag also takes response mismatches into account
