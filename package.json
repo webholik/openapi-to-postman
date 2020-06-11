@@ -127,7 +127,7 @@
   "author": "Postman Labs <help@getpostman.com>",
   "license": "Apache-2.0",
   "devDependencies": {
-    "ajv": "^6.10.2",
+    "ajv": "6.10.2",
     "chai": "4.1.2",
     "editorconfig": "0.15.3",
     "eslint": "5.16.0",
